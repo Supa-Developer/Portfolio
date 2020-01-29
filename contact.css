@@ -1,0 +1,49 @@
+.navbar-nav a {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.navbar-light .navbar-brand {
+    /* font-family: righteous; */
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
+.nav-link {
+    padding: .2rem 1rem;
+}
+
+@media only screen  and (max-width: 767px) {
+    .navbar-toggler{
+        padding: 1px 5px;
+        font-size: 18px;
+        line-height: 0.3;
+        background: #fff;
+    }
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-family: Alegreya Sans SC;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+    font-family: Alegreya Sans SC;
+}
+body {
+    background: beige;
+}
+
+.container-fluid {
+    padding-top: 70px;
+}
+
